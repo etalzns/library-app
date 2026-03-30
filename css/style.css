@@ -1,1 +1,409 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #8ac4ff, #d6e6ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
 
+    .logo {
+      width: 180px;
+      margin-bottom: 50px;
+    }
+
+    .book-icon {
+      width: 150px;
+      height: 150px;
+      background: white;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .get-started {
+      padding: 15px 40px;
+      background-color: #004aad;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: all 0.2s ease;
+    }
+
+    .get-started:hover {
+      background-color: #00327a;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+    * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Gradient background similar to the image edges */
+            background: linear-gradient(180deg, #64b5f6 0%, #e3f2fd 100%);
+        }
+
+        .container {
+            width: 360px;
+            background-color: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        /* Top Header with Bookshelf Image */
+        .header {
+            height: 200px;
+            background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=500&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        /* The semi-circle "SIGN UP" text area */
+        .header-title {
+            background-color: white;
+            width: 250px;
+            height: 120px;
+            border-bottom-left-radius: 125px;
+            border-bottom-right-radius: 125px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -20px; /* Pulls it slightly up like the image */
+        }
+
+        .header-title h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #000;
+            letter-spacing: 2px;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        /* Form Area */
+        .form-content {
+            padding: 30px 40px;
+        }
+
+        /* Toggle Buttons */
+        .toggle-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .toggle-btn {
+            width: 48%;
+            padding: 8px 0;
+            border-radius: 20px;
+            border: 1px solid #214b94;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .toggle-btn.login {
+            background: white;
+            color: #214b94;
+        }
+
+        .toggle-btn.signup {
+            background: #214b94;
+            color: white;
+        }
+
+        /* Input Fields */
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            font-size: 13px;
+            color: #555;
+        }
+
+        /* Placeholder style */
+        .input-group input::placeholder {
+            color: #999;
+        }
+
+        /* Eye Icon for password */
+        .eye-icon {
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            font-size: 16px;
+            color: #888;
+            cursor: pointer;
+        }
+
+        /* Main Action Button */
+        .submit-btn {
+            width: 100%;
+            background-color: #214b94;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(33, 75, 148, 0.3);
+        }
+
+        .submit-btn:hover {
+            background-color: #1a3a73;
+        }
+               * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(180deg, #64b5f6 0%, #e3f2fd 100%);
+        }
+
+        .container {
+            width: 360px;
+            background-color: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .header {
+            height: 200px;
+            background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=500&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-title {
+            background-color: white;
+            width: 250px;
+            height: 120px;
+            border-bottom-left-radius: 125px;
+            border-bottom-right-radius: 125px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -10px;
+        }
+
+        .header-title h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #000;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        .form-content {
+            padding: 40px;
+        }
+
+        .toggle-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .toggle-btn {
+            width: 48%;
+            padding: 10px 0;
+            border-radius: 25px;
+            border: 1px solid #ccc;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        /* Active state for Log In */
+        .toggle-btn.login {
+            background: #214b94;
+            color: white;
+            border-color: #214b94;
+        }
+
+        .toggle-btn.signup {
+            background: white;
+            color: #214b94;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .eye-icon {
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            font-size: 16px;
+            color: #888;
+            cursor: pointer;
+        }
+
+        .forgot-pass {
+            text-align: right;
+            margin-top: -15px;
+            margin-bottom: 30px;
+        }
+
+        .forgot-pass a {
+            font-size: 12px;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background-color: #214b94;
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(33, 75, 148, 0.3);
+        }
+           body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #e0e0e0; /* Grey outer background */
+        }
+
+        .phone-container {
+            width: 360px;
+            height: 700px; /* Standard mobile height */
+            background: linear-gradient(180deg, #4a90e2 0%, #e3f2fd 100%);
+            border-radius: 0; /* Keep it flat or add radius if you want a phone look */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        /* The white circular top header */
+        .white-header {
+            background-color: white;
+            width: 120%; /* Wider than container to create the curve */
+            height: 250px;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -50px; /* Pull it up a bit */
+            padding-top: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo-placeholder {
+            width: 200px;
+            height: auto;
+        }
+
+        /* Central Icon Box */
+        .icon-container {
+            margin-top: 60px;
+            width: 240px;
+            height: 240px;
+            background: rgba(255, 255, 255, 0.15); /* Semi-transparent glass look */
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .book-icon {
+            width: 180px;
+            height: auto;
+        }
+
+        /* Get Started Button */
+        .get-started-btn {
+            margin-top: auto; /* Pushes button to the bottom */
+            margin-bottom: 60px;
+            width: 240px;
+            background-color: #214b94;
+            color: white;
+            padding: 15px 0;
+            border: none;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(33, 75, 148, 0.4);
+            transition: transform 0.2s;
+        }
+
+        .get-started-btn:active {
+            transform: scale(0.98);
+        }
