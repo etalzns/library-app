@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Booking App | ITE College West</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Modern Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(rgba(26, 55, 95, 0.85), rgba(26, 55, 95, 0.85)), 
+                        url('img/office.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between; /* Keeps logo top, buttons bottom */
+            color: white;
+            text-align: center;
+        }
+
+        /* Top Section for Logo */
+        .header {
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        .logo {
+            width: 280px;
+            height: auto;
+        }
+
+        /* Middle Section for App Name */
+        .main-content {
+            margin-bottom: 50px;
+        }
+
+        .book-icon {
+            font-size: 4rem;
+            color: #ffcc00; /* ITE Gold color */
+            margin-bottom: 15px;
+        }
+
+        .app-title {
+            font-size: 2.2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        /* Bottom Section for Buttons */
+        .footer {
+            width: 100%;
+            padding-bottom: 60px;
+        }
+
+        .get-started {
+            background-color: #ffcc00;
+            color: #1a375f;
+            border: none;
+            padding: 18px 0;
+            width: 80%;
+            max-width: 300px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .get-started:hover {
+            background-color: white;
+            transform: scale(1.03);
+        }
+
+        .login-link {
+            display: block;
+            margin-top: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .login-link span {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="img/library logo_CW-small.png" height= "500" alt="ITE College West" class="logo">
+    </div>
+
+    <div class="main-content">
+        <div class="book-icon">
+            <i class="fa-solid fa-book-bookmark"></i>
+        </div>
+        <h1 class="app-title">LIBRARY <br> BOOKING APP</h1>
+        <p class="subtitle">Book your study space in seconds</p>
+    </div>
+
+    <div class="footer">
+        <a href="login.php" style="text-decoration: none;">
+            <button class="get-started">GET STARTED</button>
+        </a>
+
+    </div>
+
+</body>
+</html>
